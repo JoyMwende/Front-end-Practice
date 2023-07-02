@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript30 Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Inter">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main-content">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./Assets/Logo.svg" alt="" />
+                </div>
+                <div class="nav-links flex flex-row justify-center items-center gap-9">
+                    <a href="#" id="products-link">Products</a>
+                    <a href="#">Challenges</a>
+                    <a href="#">Resources</a>
+                    <a href="#">Other Links</a>
+                </div>
+                <div class="register">
+                    <a href="#">Sign In</a>
+                    <button>Try for free</button>
+                </div>
+            </div>
+
+            <!-- mobile navbar -->
+            <div class="mobile-navbar">
+                <div class="logo">
+                    <img src="./Assets/Logo.svg" alt="" />
+                </div>
+                <div class="hamburger">
+                    <img src="./Assets/Menu.svg" alt="" id="menu" />
+                </div>
+            </div>
+
+            <!-- mobile menu links -->
+            <div class="menu-items" id="menu-mobile-links">
+                <div class="close-menu">
+                    <img src="./Assets/Close.svg" alt="" id="close-menu-link" />
+                </div>
+                <div class="mobile-menu">
+                    <a href="#" id="products-menu">Products</a>
+                    <a href="#">Challenges</a>
+                    <a href="#">Resources</a>
+                    <a href="#">Other Links</a>
+                </div>
+                <div class="register-links">
+                    <a href="#">Sign In</a>
+                    <button>Try for free</button>
+                </div>
+            </div>
+            <div class="products-dropdown">
+                <div class="arrow">
+                    <img src="./Assets/arrow up.png" alt="" id="arrow-img">
+                </div>
+                <!-- mobile view -->
+                <div class="menu-close">
+                    <a href="#">PRODUCTS</a>
+                    <img src="./Assets/Close.svg" alt="" id="close">
+                </div>
+                <div class="dropdown-content">
+                    <div>
+                        <img src="./Assets/Spense_Icon.svg" alt="" />
+                    </div>
+                    <div class="dropdown-text">
+                        <h5>Spense</h5>
+                        <p>
+                            Spense is a landing page for writers. Great for practicing
+                            absolute positioning and flex layouts.
+                        </p>
+                    </div>
+                </div>
+                <div class="dropdown-content">
+                    <div>
+                        <img src="./Assets/Fiber_Icon.svg" alt="" />
+                    </div>
+                    <div class="dropdown-text">
+                        <h5>Fiber Landing Page</h5>
+                        <p>
+                            An online portfolio generator. Great to practice flex/grid
+                            layouts, and absolute positioning.
+                        </p>
+                    </div>
+                </div>
+                <div class="dropdown-content" style="margin-bottom: 0;">
+                    <div>
+                        <img src="./Assets/Gradie_Icon.svg" alt="" />
+                    </div>
+                    <div class="dropdown-text">
+                        <h5>Gradie Sign Up Page</h5>
+                        <p>
+                            Gradie is a simple sign up page, great to practice centering
+                            layouts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="flex flex-row" style="gap: 40px;">
+                    <div class="container-text">
+                        <div class="flex flex-row">
+                            <h1 id="txtblack">Ondeck is your remote<b id="txtorange"> online conference calling tool</b>
+                            </h1>
+                        </div>
+                        <p>Ondeck is a srevice that allows you to create beautiful, online, and encrypted
+                            video calls for you and your remote team.
+                        </p>
+                        <button>Try for free</button>
+
+                        <div class=" logos flex flex-row">
+                            <p>5.0 Rating based on review from: </p>
+                            <img src="./Assets/Capterra Logo.svg" alt="">
+                            <img src="./Assets/AlternativeTo Logo.svg" alt="">
+                            <img src="./Assets/shopify.png" alt="">
+                        </div>
+                    </div>
+                    <div class="hero-img">
+                        <img src="./Assets/Hero Image.png" alt="">
+                    </div>
+                </div>
+
+
+                <div class="footer">
+                    <div>
+                        <p>Trusted by 3+ million people at companies like</p>
+                    </div>
+                    <div class="img-logos">
+                        <img src="./Assets/Netflix Logo.svg" alt="">
+                        <img src="./Assets/Shopify Logo.svg" alt="">
+                        <img src="./Assets/Spotify Logo.svg" alt="">
+                        <img src="./Assets/Walmart Logo.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
